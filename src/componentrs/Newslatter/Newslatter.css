@@ -1,0 +1,54 @@
+.news{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient( 180deg,#fde1ff,#e1ffea22 60%);
+    gap: 30px;
+    margin-top: 50px;
+}
+.news h1 {
+    font-size: 30px;
+    color: #454545;
+    font-weight: 600;
+}
+.news p {
+    font-size: 20px;
+    color: #454545;
+    
+}
+
+.news div { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+
+}
+.news  div input {
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+     outline: none;
+     color: #616161;
+     font-family: Poppins;
+     font-size: 16px;
+}
+.news div button {
+     width: 210px;
+     height: 70px;
+     border-radius: 80px ;
+     background: black;
+     color: white;
+     font-size: 16px;
+     cursor: pointer;
+}

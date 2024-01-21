@@ -4,6 +4,7 @@
 
 }
 .item img {
+
     width: 300px;
 }
 .item p {
@@ -11,7 +12,8 @@
 }
 .item_prices{
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    
 
 }
 .item-price-new{
